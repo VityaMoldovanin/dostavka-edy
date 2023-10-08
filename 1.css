@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif; 
+}
+header{
+    height: 159px;
+    background: #000;
+    color: white;
+    display: flex ;
+    flex-direction: column;
+}
+.Account{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 24px;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+input{
+    width: 240px;
+    height: 32px;
+    border-radius: 20px;
+    background: #D9D9D9;
+}
+li{
+list-style: none;
+font-size: 20px;
+margin-left: 200px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    color: #D9D9D9;
+    font-size: 24px;
+    
+}
+.footer-item{
+display: flex;
+justify-content: center;
+
+}
+.footer-item>*{
+    margin-left: 20px;
+}
+.o-nac-text{
+margin-left: 30px ;
+ width: 757px;
+ font-size: 36px;
+ text-align: center;
+}
+.sale{
+margin: 0;
+display: flex;
+justify-content: space-between;
+padding: 0;
+}
+.sale>div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.sale-text{
+font-size: 36px;
+text-align: center;
+width: 474px;
+}
+.sale-price{
+    font-size: 64px;
+    color: #F00;
+    text-align: center;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.card-price{
+
+}
+.card-name{
+
+
+}
